@@ -1,0 +1,10 @@
+Definicion del objeto.
+
+atributos 
+
+Nombre - String
+Definicion - String
+Precio - String
+Valoracion - Integer (Posible NO implementacion)
+TimeStamp - String
+Version - String ? Object
