@@ -1,1 +1,5 @@
 Definicion de la clase MAIN, implementacion basica de un CRUD, implementacion de MongoDB, generacion del objeto principal y pruebas basicas del crud.
+
+
+A la hora de dar de alta un nuevo producto se debera de guardar en un nuevo fichero json donde iran almacenando sus version estilo eventSourcing
+Tambien un json global de todos los prodcutos?
