@@ -8,6 +8,8 @@ type Producto struct {
 	Version    Version `json:"version"`
 }
 
+type Productos []Producto
+
 func NewProducto(nombre, definicion string, precio float32, valoracion int) *Producto {
 	return &Producto{nombre, definicion, precio, valoracion, *NewVersion()}
 }

@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	//TODO: ELiminar a posterior
 	coche := estructuras.NewProducto("Renault Megane", "Coche de pruebas", 1000.0, 5)
 	if err := ejemploWriteJSON(coche); err != nil {
 		fmt.Println("Error:", err)
